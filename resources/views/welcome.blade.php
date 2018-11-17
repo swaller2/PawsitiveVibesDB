@@ -62,6 +62,22 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            form{
+                background:#f5f5f5;
+                padding:20px;
+                border-radius:10px;
+            }
+
+            input[type="submit"]{
+                background:#0098cb;
+                border:0px;
+                border-radius:5px;
+                color:#fff;
+                padding:10px;
+                margin:20px auto;
+            }
+
         </style>
     </head>
     <body>
@@ -83,14 +99,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <li><a href="./images">View funny dog pictures!</a></li>
                 </div>
             </div>
+
         </div>
     </body>
 </html>
